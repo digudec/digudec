@@ -1,0 +1,278 @@
+body{
+    margin: 15px 25px 15px 25px;
+}
+
+main{
+    flex-wrap: wrap;
+}
+
+
+header{
+    background-color: rgb(247, 204, 148);
+    padding: 30px;
+    text-align: center;
+}
+
+.menu1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu1 #item{
+    float: left;
+}
+
+.menu1 #item a{
+    background-color: blueviolet;
+    color: cornsilk;
+ 
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 5PX;
+    margin-left: 40px;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#uull{
+    margin-left: 50px;
+}
+.menu1 #desplegable{
+    display: none;
+}
+
+.menu1 #item:hover #desplegable{
+    display: block;
+}
+
+.menu1 #item a:hover{
+    background-color: darkgoldenrod;
+    color: darkseagreen;
+}
+
+#item{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.menu1{
+    position: absolute;
+}
+
+
+
+
+
+/* footer{
+    background-color: yellowgreen;
+} */
+
+.menu2{
+    position: absolute;
+    margin-top: 150px;
+}
+.menu2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu2 #item2{
+    float: left;
+}
+
+.menu2 #item2 a{
+    /* background-color: rgb(43, 226, 131);
+    color: cornsilk;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10PX;
+    margin-left: 70px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px; */
+
+    background-color: rgb(43, 226, 131);
+    color: cornsilk;
+ 
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 5PX;
+    margin-left: 40px;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+#navega1{
+    position: relative;
+}
+
+#uull2{
+    /* margin-left: 150px; */
+    margin-left: 30px;
+}
+.menu2 #desplegable2{
+    display: none;
+}
+
+.menu2 #item2:hover #desplegable2{
+    display: block;
+}
+
+.menu2 #item2 a:hover{
+    background-color: darkgoldenrod;
+    color: darkseagreen;
+}
+
+#item2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+/* footer{
+    background-color: yellowgreen;
+} */
+
+.menu3{
+    position: absolute;
+    margin-top: 330px;
+}
+.menu3 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu3 #item3{
+    float: left;
+}
+
+.menu3 #item3 a{
+    background-color: rgb(253, 8, 164);
+    color: cornsilk;
+ 
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 5PX;
+    margin-left: 40px;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+#uull3{
+    /* margin-left: 150px; */
+    margin-left: 50px;
+}
+.menu3 #desplegable3{
+    display: none;
+}
+
+.menu3 #item3:hover #desplegable3{
+    display: block;
+}
+
+.menu3 #item3 a:hover{
+    background-color: darkgoldenrod;
+    color: darkseagreen;
+}
+
+#item3{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+.menu4{
+    position: absolute;
+    margin-top: 600px;
+}
+.menu4 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu4 #item4{
+    float: left;
+}
+
+.menu4 #item4 a{
+    background-color: rgb(253, 8, 8);
+    color: cornsilk;
+ 
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 5PX;
+    margin-left: 40px;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#uull4{
+    /* margin-left: 150px; */
+    margin-left: 50px;
+}
+.menu4 #desplegable4{
+    display: none;
+}
+
+.menu4 #item4:hover #desplegable4{
+    display: block;
+}
+
+.menu4 #item4 a:hover{
+    background-color: darkgoldenrod;
+    color: darkseagreen;
+}
+
+#item4{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+footer{
+    /* background-color: red; */
+    display: block;
+    bottom: 0;
+    position: absolute;
+    width: 95%;
+    flex-wrap: wrap;margin-right: 100px;
+}
+
+#imagen img{
+    display: block;
+    margin: auto;
+}
+
+#imagen2 img{
+    display: block;
+    margin: auto;
+    margin-left: 350px;
+}
