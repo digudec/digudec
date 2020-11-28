@@ -65,11 +65,12 @@ section{
     display: block;
     /* background-color: chartreuse; */
 }
+
 .menu1 h5, .menu2 h5, .menu3 h5, .menu4 h5{
     background-color: #8F7D78;
-    color: #F2C4C4;
+    /* color: #F2C4C4; */
     font-size: 15PX;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     margin: 0 auto;
     padding: 1%;
     margin-right: 35px;
@@ -82,34 +83,34 @@ section{
     display: block;
 }
 
-
-
-/* .menu1 p + ul{
-    display: none;
+/* stylo a los subtitulos etiqutas */
+.menu1 .section h5 a, .menu2 .section h5 a, .menu3 .section h5 a, .menu4 .section h5 a{
+    color: #F2C4C4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.menu1 :target p + ul{
-    display: block;
-} */
-
+/* estilo a las listas desplegables */
+.menu1 .section div ul a, .menu2 .section div ul a, .menu3 .section div ul a, .menu4 .section div ul a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .menu1 ul, .menu2 ul, .menu3 ul, .menu4 ul{
     list-style-type: none;
 }
 .menu1 #desplegable, .menu2 #desplegable, .menu3 #desplegable, .menu4 #desplegable{
     display: none;
     background-color: #F8DADA;
+    color: #F2C4C4;
 }
 .menu1 #item:hover #desplegable, .menu2 #item:hover #desplegable, .menu3 #item:hover #desplegable, .menu4 #item:hover #desplegable{
     display: block;
     margin-right: 35px;
     padding: 1%;
-
-
 }
 .menu1 #item a, .menu2 #item a, .menu3 #item a, .menu4 #item a{
     text-decoration: none;
     display: block;
     padding: 1%;
-    color: #F2C4C4;
+    /* color: black; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .menu1 #item a:hover, .menu2 #item a:hover, .menu3 #item a:hover, .menu4 #item a:hover{
@@ -124,7 +125,7 @@ footer{
 }
 
 .fott{
-    /*padding: 30px;*/ /*QUITA DIANA*/
+    padding: 0px;
 }
 
 .fott h3{
@@ -132,6 +133,7 @@ footer{
     text-align: center;
     font-weight: bold;
     margin-left: 35px;
+    padding-top: 10px;
 }
 
 .sociales{
@@ -145,22 +147,3 @@ footer{
 .sociales a{
     padding: 10px;
 }
-/* .fott p{
-    text-align: center;
-    padding: 2%;
-}
-#inst{
-    width: 40px;
-    margin-right: 100px;
-} */
-/* .fott .redes img #face{
-    width: 65px;
-}
-.fott .redes img #whats{
-    width: 10px;
-} */
-/* 
-.redes{
-    background-color: darkblue;
-    margin: 0 auto;
-}  */
